@@ -1,0 +1,12 @@
+As a temporary workaround (that does not require a developer certificate), you could run the client from the terminal utility:
+1. open "Terminal"
+2. at the command prompt, run "cd '/Applications/League of Legends.app/Contents/LoL/'"
+3. run "./LeagueClient.app/Contents/MacOS/LeagueClient"
+4. login into your LoL account
+5. go to "Settings -> VOICE" and click on the mic symbol; this should cause a popup `“Terminal.app” would like to access the microphone.`
+6. choose "OK"
+
+Voice should now work, but I strongly suggest to test it in a coop game or similar, to make sure that everything is ok.
+Steps 5 and 6 should only be needed the first time (unless you reset your settings).
+Steps 1 to 4 will be needed whenever you want to start LoL.
+If the client updates, I would suggest you to close it and run through steps 1-5.
